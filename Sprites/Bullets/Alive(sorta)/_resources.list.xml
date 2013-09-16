@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="silver_bomb" type="RESOURCE"/>
+  <resource name="red_bullet_left" type="RESOURCE"/>
+  <resource name="red_bullet_right" type="RESOURCE"/>
+  <resource name="ciribot_shoot_right" type="RESOURCE"/>
+  <resource name="ciribot_shoot_up" type="RESOURCE"/>
+  <resource name="ciribot_shoot_left" type="RESOURCE"/>
+  <resource name="ciribot_shoot_down" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="world1" type="GROUP"/>
+  <resource name="world2" type="GROUP"/>
+  <resource name="world3" type="GROUP"/>
+  <resource name="misc" type="GROUP"/>
+</resources>

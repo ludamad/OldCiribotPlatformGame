@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="525" library="1">
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_font</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="FONTSTRING">"OCR A Extended",16,16777215,0,0,0,0</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">with object357
+{
+draw_text(x+sprite_width+12,y,global.cjump[1])}
+with object358
+{
+draw_text(x+sprite_width+12,y,global.cblock[1])}
+with object359
+{
+draw_text(x+sprite_width+12,y,global.cshoot[1])}
+
+
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

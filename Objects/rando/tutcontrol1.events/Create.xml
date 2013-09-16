@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="601" library="1">
+      <!--action name: Execute_Script-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_execute_script</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SCRIPT">scrDialogBox</argument>
+        <argument kind="EXPRESSION">"Hello, I am Dr. Crunch."</argument>
+        <argument kind="EXPRESSION">true</argument>
+        <argument kind="EXPRESSION">crun</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">"Dr. Crunch: "</argument>
+      </arguments>
+    </action>
+    <action id="601" library="1">
+      <!--action name: Execute_Script-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_execute_script</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SCRIPT">scrDialogBox</argument>
+        <argument kind="EXPRESSION">"Hello Dr. Crunch!"  </argument>
+        <argument kind="EXPRESSION">true</argument>
+        <argument kind="EXPRESSION">ciri</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">"Ciribot: "</argument>
+      </arguments>
+    </action>
+    <action id="601" library="1">
+      <!--action name: Execute_Script-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_execute_script</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SCRIPT">scrDialogBox</argument>
+        <argument kind="EXPRESSION">"This is the tutorial, press the Q button to leave when there is no talking."</argument>
+        <argument kind="EXPRESSION">true</argument>
+        <argument kind="EXPRESSION">crun</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">"Dr. Crunch: "</argument>
+      </arguments>
+    </action>
+    <action id="601" library="1">
+      <!--action name: Execute_Script-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_execute_script</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SCRIPT">scrDialogBox</argument>
+        <argument kind="EXPRESSION">"What! What's a Q button?"  </argument>
+        <argument kind="EXPRESSION">true</argument>
+        <argument kind="EXPRESSION">ciri</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">"Ciribot: "</argument>
+      </arguments>
+    </action>
+    <action id="601" library="1">
+      <!--action name: Execute_Script-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_execute_script</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SCRIPT">scrDialogBox</argument>
+        <argument kind="EXPRESSION">"Err... not important, first try jumping around and making blocks, then we can move on. Make blocks with whatever button you defined - the default is CTRL and same with jump but space is the default to jump with. "</argument>
+        <argument kind="EXPRESSION">true</argument>
+        <argument kind="EXPRESSION">crun</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">"Dr. Crunch: "</argument>
+      </arguments>
+    </action>
+    <action id="601" library="1">
+      <!--action name: Execute_Script-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_execute_script</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SCRIPT">scrDialogBox</argument>
+        <argument kind="EXPRESSION">"...CTRL? Where'd the vowels go? How on earth did you pronounce that! I'm supposed to jump with space? Huh, don't I always have space when I jump..."  </argument>
+        <argument kind="EXPRESSION">true</argument>
+        <argument kind="EXPRESSION">ciri</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">"Ciribot: "</argument>
+      </arguments>
+    </action>
+    <action id="601" library="1">
+      <!--action name: Execute_Script-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_execute_script</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SCRIPT">scrDialogBox</argument>
+        <argument kind="EXPRESSION">"It's not important, ok? Also press up to pull levers...just do it, get to the top of the level so we can move on. Go on now make your way to the top!"</argument>
+        <argument kind="EXPRESSION">true</argument>
+        <argument kind="EXPRESSION">crun</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">"Dr. Crunch: "</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

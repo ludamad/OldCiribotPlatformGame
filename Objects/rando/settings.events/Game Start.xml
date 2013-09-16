@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="OTHER" id="2">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">global.cjump=vk_space
+global.cjump[1]='Space Key'
+global.cblock=vk_control
+global.cblock[1]='Control Key'
+global.cshoot=vk_shift
+global.cshoot[1]='Shift Key'</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

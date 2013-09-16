@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<timeline>
+  <moment stepNo="0">
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>object479</appliesTo>
+      <arguments>
+        <argument kind="STRING">vspeed=-9
+sound_loop(stro)
+</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="18">
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>object481</appliesTo>
+      <arguments>
+        <argument kind="STRING">vspeed=-9
+script_execute(scrDialogBox,"So... the light bright cube is in this cave?",true,ciri,0,"Ciribot: ")
+</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="36">
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>object481</appliesTo>
+      <arguments>
+        <argument kind="STRING">script_execute(scrDialogBox,"Yes, somewhere in the depths of this icy cave is the power of the light bright cube, guarded by a monster.",true,crun,0,"Dr. Crunch: ")
+</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="54">
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>object481</appliesTo>
+      <arguments>
+        <argument kind="STRING">script_execute(scrDialogBox,"Ok, I will find it!",true,ciri,0,"Ciribot: ")
+</argument>
+      </arguments>
+    </action>
+    <action id="224" library="1">
+      <!--action name: Another_Room-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_another_room</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="ROOM"/>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+  </moment>
+</timeline>

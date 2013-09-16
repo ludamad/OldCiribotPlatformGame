@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="bhdarkbot" type="RESOURCE"/>
+  <resource name="bhspook" type="RESOURCE"/>
+  <resource name="bhgromo" type="RESOURCE"/>
+  <resource name="bhcloak" type="RESOURCE"/>
+  <resource name="bhdevguy" type="RESOURCE"/>
+  <resource name="bhdiaboo" type="RESOURCE"/>
+</resources>

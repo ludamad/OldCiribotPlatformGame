@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="exit" type="RESOURCE"/>
+  <resource name="Shop" type="RESOURCE"/>
+  <resource name="load" type="RESOURCE"/>
+  <resource name="cont" type="RESOURCE"/>
+  <resource name="newfile" type="RESOURCE"/>
+  <resource name="back" type="RESOURCE"/>
+</resources>

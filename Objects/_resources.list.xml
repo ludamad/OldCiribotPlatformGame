@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="experimental" type="GROUP"/>
+  <resource name="shop stuff" type="GROUP"/>
+  <resource name="cutscene" type="GROUP"/>
+  <resource name="mm" type="GROUP"/>
+  <resource name="invisible" type="GROUP"/>
+  <resource name="rando" type="GROUP"/>
+  <resource name="hints" type="GROUP"/>
+  <resource name="Items" type="GROUP"/>
+  <resource name="Boss2" type="GROUP"/>
+  <resource name="boss3" type="GROUP"/>
+  <resource name="enemies" type="GROUP"/>
+  <resource name="menus" type="GROUP"/>
+  <resource name="objPlayer" type="RESOURCE"/>
+  <resource name="object257" type="RESOURCE"/>
+  <resource name="object281" type="RESOURCE"/>
+  <resource name="object335" type="RESOURCE"/>
+  <resource name="object355" type="RESOURCE"/>
+  <resource name="objText" type="RESOURCE"/>
+  <resource name="obj_traveller" type="RESOURCE"/>
+  <resource name="object384" type="RESOURCE"/>
+  <resource name="object385" type="RESOURCE"/>
+  <resource name="object_win" type="RESOURCE"/>
+  <resource name="object452" type="RESOURCE"/>
+  <resource name="taker" type="RESOURCE"/>
+  <resource name="object444" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="blockfaller" type="RESOURCE"/>
+  <resource name="fallinbloc" type="RESOURCE"/>
+  <resource name="shots" type="GROUP"/>
+  <resource name="bossguy" type="RESOURCE"/>
+</resources>

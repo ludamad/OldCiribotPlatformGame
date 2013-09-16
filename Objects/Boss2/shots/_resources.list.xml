@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="shot left down" type="RESOURCE"/>
+  <resource name="shot down" type="RESOURCE"/>
+  <resource name="shot right down" type="RESOURCE"/>
+</resources>

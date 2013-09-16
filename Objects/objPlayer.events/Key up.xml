@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="KEYBOARD" id="38">
+  <actions>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">global.metalic</argument>
+        <argument kind="EXPRESSION">1</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if !position_meeting(x,y,objLadder)
+    {
+        if !position_meeting(x,y+32,objLadder) 
+            ladder=false;
+    }
+if not(ladder or water)
+    {
+        exit
+    }
+
+if place_meeting(x,y,objLadder)
+    {
+        if place_free(x,y-4) y-=4;
+        image_speed=1
+    }
+if ladder
+    {
+        climb=1
+        sprite_index=metladder
+        exit
+    }
+if ladder=false and water=false and place_free(x,y+1) and facing='left' 
+    {
+        sprite_index=metleft;
+    }
+
+    if ladder=false and water=false and place_free(x,y+1) and facing='right' {sprite_index=metright;}
+
+    if water=true and facing='left' sprite_index=sprPlayer_Swimleft;
+
+    if water=true and facing='right' sprite_index=sprPlayer_Swimright;
+
+
+    if place_meeting(x,y,objWater) {if place_free(x,y-1) y-=1;}
+
+</argument>
+      </arguments>
+    </action>
+    <action id="421" library="1">
+      <!--action name: Else-->
+      <kind>ELSE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if !position_meeting(x,y,objLadder)
+    {
+        if !position_meeting(x,y+32,objLadder) 
+            ladder=false;
+    }
+if not(ladder or water)
+    {
+        exit
+    }
+
+if place_meeting(x,y,objLadder)
+    {
+        if place_free(x,y-4) y-=4;
+        image_speed=1
+    }
+if ladder
+    {
+        climb=1
+        sprite_index=sprPlayer_Ladder
+        exit
+    }
+if ladder=false and water=false and place_free(x,y+1) and facing='left' 
+    {
+        sprite_index=sprPlayer_Jumpleft;
+    }
+
+    if ladder=false and water=false and place_free(x,y+1) and facing='right' {sprite_index=sprPlayer_Jumpright;}
+
+    if water=true and facing='left' sprite_index=sprPlayer_Swimleft;
+
+    if water=true and facing='right' sprite_index=sprPlayer_Swimright;
+
+
+    if place_meeting(x,y,objWater) {if place_free(x,y-1) y-=1;}
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

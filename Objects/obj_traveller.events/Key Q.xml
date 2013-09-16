@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="KEYBOARD" id="81">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">global.savex=-1
+global.savey=-1
+switch (global.world)
+{
+case 0: room=selectbeginner;break;
+case 1: room=Select;break;
+case 2: room=caveselect;break;
+case 3: room=room106;break;
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

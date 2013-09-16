@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Alive(sorta)" type="GROUP"/>
+  <resource name="Shooters" type="GROUP"/>
+  <resource name="Dead(sorta)" type="GROUP"/>
+</resources>

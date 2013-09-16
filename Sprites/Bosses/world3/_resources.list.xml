@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="spinnernorm" type="RESOURCE"/>
+  <resource name="shrinker" type="RESOURCE"/>
+  <resource name="shaker" type="RESOURCE"/>
+  <resource name="slicer" type="RESOURCE"/>
+</resources>

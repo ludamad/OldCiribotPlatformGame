@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="palmtree" type="RESOURCE"/>
+  <resource name="sprLadder" type="RESOURCE"/>
+  <resource name="flower" type="RESOURCE"/>
+  <resource name="rock" type="RESOURCE"/>
+</resources>

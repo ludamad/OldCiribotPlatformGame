@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="silver_shooter_left" type="RESOURCE"/>
+  <resource name="silver_shooter_right" type="RESOURCE"/>
+  <resource name="red_shooter_left" type="RESOURCE"/>
+  <resource name="red_shooter_right" type="RESOURCE"/>
+  <resource name="yellow_shooter_left" type="RESOURCE"/>
+  <resource name="yellow_shooter_right" type="RESOURCE"/>
+  <resource name="black_shooter_right" type="RESOURCE"/>
+  <resource name="black_shooter_left" type="RESOURCE"/>
+</resources>

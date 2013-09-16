@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="crun" type="RESOURCE"/>
+  <resource name="ciri" type="RESOURCE"/>
+  <resource name="metalciribot" type="RESOURCE"/>
+  <resource name="darkbotdialog" type="RESOURCE"/>
+  <resource name="sprTBox" type="RESOURCE"/>
+  <resource name="sprTBoxEnd" type="RESOURCE"/>
+</resources>

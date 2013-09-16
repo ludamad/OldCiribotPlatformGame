@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Jumpings" type="RESOURCE"/>
+  <resource name="Shootings" type="RESOURCE"/>
+  <resource name="blahking" type="RESOURCE"/>
+</resources>

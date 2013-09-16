@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="object315" type="RESOURCE"/>
+  <resource name="object407" type="RESOURCE"/>
+  <resource name="icecave" type="RESOURCE"/>
+  <resource name="thirdone" type="RESOURCE"/>
+  <resource name="first_screen" type="RESOURCE"/>
+  <resource name="menuitem" type="RESOURCE"/>
+  <resource name="slot_screen" type="RESOURCE"/>
+  <resource name="control" type="RESOURCE"/>
+  <resource name="buttons" type="GROUP"/>
+  <resource name="object364" type="RESOURCE"/>
+  <resource name="object406" type="RESOURCE"/>
+  <resource name="object312" type="RESOURCE"/>
+  <resource name="object472" type="RESOURCE"/>
+</resources>

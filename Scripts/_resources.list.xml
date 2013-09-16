@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="guy" type="GROUP"/>
+  <resource name="group" type="GROUP"/>
+  <resource name="script28" type="RESOURCE"/>
+  <resource name="script29" type="RESOURCE"/>
+  <resource name="scriptpp" type="RESOURCE"/>
+  <resource name="script42" type="RESOURCE"/>
+  <resource name="scrDialogBox" type="RESOURCE"/>
+  <resource name="blockmake" type="RESOURCE"/>
+  <resource name="unjump" type="RESOURCE"/>
+  <resource name="jumping" type="RESOURCE"/>
+  <resource name="shootey" type="RESOURCE"/>
+  <resource name="backspac" type="RESOURCE"/>
+  <resource name="key_press_jump" type="RESOURCE"/>
+  <resource name="item_list" type="RESOURCE"/>
+  <resource name="set_key" type="RESOURCE"/>
+  <resource name="script38" type="RESOURCE"/>
+  <resource name="maker" type="RESOURCE"/>
+</resources>

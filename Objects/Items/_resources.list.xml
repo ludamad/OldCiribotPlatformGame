@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="objFloor" type="RESOURCE"/>
+  <resource name="objFloor2" type="RESOURCE"/>
+  <resource name="object277" type="RESOURCE"/>
+  <resource name="object473" type="RESOURCE"/>
+  <resource name="object394" type="RESOURCE"/>
+  <resource name="object395" type="RESOURCE"/>
+  <resource name="object393" type="RESOURCE"/>
+  <resource name="object389" type="RESOURCE"/>
+  <resource name="object331" type="RESOURCE"/>
+  <resource name="object474" type="RESOURCE"/>
+  <resource name="burning" type="RESOURCE"/>
+  <resource name="object484" type="RESOURCE"/>
+  <resource name="secrt" type="RESOURCE"/>
+  <resource name="object365" type="RESOURCE"/>
+  <resource name="object366" type="RESOURCE"/>
+  <resource name="object362" type="RESOURCE"/>
+  <resource name="object367" type="RESOURCE"/>
+  <resource name="secret" type="RESOURCE"/>
+  <resource name="object371" type="RESOURCE"/>
+  <resource name="object332" type="RESOURCE"/>
+  <resource name="marker" type="RESOURCE"/>
+  <resource name="object265" type="RESOURCE"/>
+  <resource name="object329" type="RESOURCE"/>
+  <resource name="object328" type="RESOURCE"/>
+  <resource name="Platforms" type="GROUP"/>
+  <resource name="Slopes_Ladders" type="GROUP"/>
+  <resource name="Water" type="GROUP"/>
+  <resource name="Coveyor_Belts" type="GROUP"/>
+  <resource name="Jump_Pad" type="GROUP"/>
+  <resource name="makable blocks" type="GROUP"/>
+</resources>

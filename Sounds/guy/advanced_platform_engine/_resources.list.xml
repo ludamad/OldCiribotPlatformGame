@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="menu" type="RESOURCE"/>
+  <resource name="noss" type="RESOURCE"/>
+  <resource name="battle" type="RESOURCE"/>
+  <resource name="stro" type="RESOURCE"/>
+  <resource name="allriy" type="RESOURCE"/>
+  <resource name="menuu" type="RESOURCE"/>
+  <resource name="boss" type="RESOURCE"/>
+  <resource name="alternatesound" type="RESOURCE"/>
+  <resource name="slowlevel" type="RESOURCE"/>
+  <resource name="sound84" type="RESOURCE"/>
+  <resource name="shop" type="RESOURCE"/>
+  <resource name="l3" type="RESOURCE"/>
+</resources>

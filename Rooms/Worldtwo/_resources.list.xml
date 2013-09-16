@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="caveselect" type="RESOURCE"/>
+  <resource name="uno" type="RESOURCE"/>
+  <resource name="duno" type="RESOURCE"/>
+  <resource name="tuno" type="RESOURCE"/>
+  <resource name="boss2" type="RESOURCE"/>
+  <resource name="cutscene3" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="selectbeginner" type="RESOURCE"/>
+  <resource name="onon" type="RESOURCE"/>
+  <resource name="twtw" type="RESOURCE"/>
+  <resource name="thrthr" type="RESOURCE"/>
+  <resource name="cutscene" type="RESOURCE"/>
+  <resource name="tut" type="GROUP"/>
+</resources>

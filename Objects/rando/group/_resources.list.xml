@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="openafter" type="RESOURCE"/>
+  <resource name="closedafter" type="RESOURCE"/>
+  <resource name="LU" type="RESOURCE"/>
+  <resource name="RU" type="RESOURCE"/>
+  <resource name="LD" type="RESOURCE"/>
+  <resource name="RD" type="RESOURCE"/>
+</resources>

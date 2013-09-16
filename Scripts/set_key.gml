@@ -1,0 +1,9 @@
+if instance_nearest(x,y,menuitem).n=0
+{global.cjump[0]=key
+global.cjump[1]=argument0}
+if instance_nearest(x,y,menuitem).n=1
+{global.cblock[0]=key
+global.cblock[1]=argument0}
+if instance_nearest(x,y,menuitem).n=2
+{global.cshoot[0]=key
+global.cshoot[1]=argument0}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="objPlatformblocker" type="RESOURCE"/>
+  <resource name="objHorizontalPlatform" type="RESOURCE"/>
+  <resource name="objHorizontalPlatform2" type="RESOURCE"/>
+  <resource name="objVerticalPlatform" type="RESOURCE"/>
+  <resource name="objAngledPlatform" type="RESOURCE"/>
+</resources>

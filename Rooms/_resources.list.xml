@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Startmenu" type="GROUP"/>
+  <resource name="TutorialWorld" type="GROUP"/>
+  <resource name="Worldone" type="GROUP"/>
+  <resource name="Worldtwo" type="GROUP"/>
+  <resource name="worldthree" type="GROUP"/>
+  <resource name="Johns levels" type="GROUP"/>
+  <resource name="new things" type="GROUP"/>
+</resources>

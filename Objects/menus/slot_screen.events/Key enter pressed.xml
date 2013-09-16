@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="KEYPRESS" id="13">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if instance_nearest(x,y,menuitem).n=3
+room=Start
+else
+{
+if room = Slot
+{
+if (file_exists("slot"+string(instance_nearest(x,y,menuitem).n+1)+".cb"))
+{if scriptpp() exit}
+global.slot=instance_nearest(x,y,menuitem).n+1
+global.hard =0
+global.firsttime=1
+global.slevel[0,0]=1
+global.slevel[0,1]=0
+global.slevel[0,2]=0
+global.slevel[0,3]=0
+global.slevel[0,4]=0
+global.blockupgrade=0
+global.savedoor=0
+global.coins =0
+global.money =0
+global.difgained=2
+global.side=0
+script_execute(scrDialogBox,"You have successfully saved in slot "+ string(instance_nearest(x,y,menuitem).n+1)+".",true,crun,0,"Dr. Crunch: ")
+room=selectbeginner
+}
+else
+{if (file_exists("slot"+string(instance_nearest(x,y,menuitem).n+1)+".cb"))
+game_load("slot"+string(instance_nearest(x,y,menuitem).n+1)+".cb")
+else
+script_execute(scrDialogBox,"There is no save file in slot "+ string(instance_nearest(x,y,menuitem).n+1)+".",true,crun,0,"Dr. Crunch: ")}}</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

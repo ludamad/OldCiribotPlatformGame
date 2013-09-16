@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="KEYPRESS" id="8">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if (global.upgradeone)=0
+{
+if (global.upgradetwo)=0
+exit
+else
+{
+if global.upgradepic = 0
+global.upgradepic=2
+else
+global.upgradepic=0
+}
+}
+else
+{
+if global.upgradetwo = 0
+global.upgradepic = !global.upgradepic
+else
+{
+if global.upgradepic = 2
+global.upgradepic = 0
+else
+global.upgradepic +=1
+}
+}</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

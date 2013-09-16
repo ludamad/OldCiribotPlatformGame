@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<timeline>
+  <moment stepNo="0">
+    <action id="104" library="1">
+      <!--action name: Set_Vspeed-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_vspeed</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>object481</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">-9</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>object503</appliesTo>
+      <arguments>
+        <argument kind="STRING">sprite_index=sprPlayer_Walkright
+image_speed=0</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="9">
+    <action id="104" library="1">
+      <!--action name: Set_Vspeed-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_vspeed</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>object503</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">-9</argument>
+      </arguments>
+    </action>
+    <action id="601" library="1">
+      <!--action name: Execute_Script-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_execute_script</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SCRIPT">scrDialogBox</argument>
+        <argument kind="EXPRESSION">"Ciribot... did you just destroy the sun?"</argument>
+        <argument kind="EXPRESSION">true</argument>
+        <argument kind="EXPRESSION">crun</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">"Dr. Crunch: "</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="18">
+    <action id="104" library="1">
+      <!--action name: Set_Vspeed-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_vspeed</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>object481</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">-9</argument>
+      </arguments>
+    </action>
+    <action id="601" library="1">
+      <!--action name: Execute_Script-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_execute_script</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SCRIPT">scrDialogBox</argument>
+        <argument kind="EXPRESSION">"Well... umm, it was bothering me! It was all shiny and annoying, besides I like darkness."  </argument>
+        <argument kind="EXPRESSION">true</argument>
+        <argument kind="EXPRESSION">ciri</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">"Ciribot: "</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="27">
+    <action id="104" library="1">
+      <!--action name: Set_Vspeed-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_vspeed</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>object503</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">-9</argument>
+      </arguments>
+    </action>
+    <action id="601" library="1">
+      <!--action name: Execute_Script-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_execute_script</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SCRIPT">scrDialogBox</argument>
+        <argument kind="EXPRESSION">"Umm... are you aware that most things NEED the sun? Sure, you can live without it but I don't think very much else can. You better restore the sun before too much damage occurs."</argument>
+        <argument kind="EXPRESSION">true</argument>
+        <argument kind="EXPRESSION">crun</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">"Dr. Crunch: "</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="36">
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>object503</appliesTo>
+      <arguments>
+        <argument kind="STRING">hspeed=6
+image_speed=1</argument>
+      </arguments>
+    </action>
+    <action id="601" library="1">
+      <!--action name: Execute_Script-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_execute_script</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SCRIPT">scrDialogBox</argument>
+        <argument kind="EXPRESSION">"Restore the sun? After all my hard work beating it? There's got to be something in it for me..."  </argument>
+        <argument kind="EXPRESSION">true</argument>
+        <argument kind="EXPRESSION">ciri</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">"Ciribot: "</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="52">
+    <action id="601" library="1">
+      <!--action name: Execute_Script-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_execute_script</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SCRIPT">scrDialogBox</argument>
+        <argument kind="EXPRESSION">"Okay, if you can restore the sun I'll... let you use my spaceship..."</argument>
+        <argument kind="EXPRESSION">true</argument>
+        <argument kind="EXPRESSION">crun</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">"Dr. Crunch: "</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="74">
+    <action id="601" library="1">
+      <!--action name: Execute_Script-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_execute_script</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SCRIPT">scrDialogBox</argument>
+        <argument kind="EXPRESSION">"Cuby! Me jump over you!"  </argument>
+        <argument kind="EXPRESSION">true</argument>
+        <argument kind="EXPRESSION">ciri</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">"Ciribot: "</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="77">
+    <action id="601" library="1">
+      <!--action name: Execute_Script-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_execute_script</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SCRIPT">scrDialogBox</argument>
+        <argument kind="EXPRESSION">"Cuby indeed. Must you make up words?"</argument>
+        <argument kind="EXPRESSION">true</argument>
+        <argument kind="EXPRESSION">crun</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">"Dr. Crunch: "</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="81">
+    <action id="601" library="1">
+      <!--action name: Execute_Script-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_execute_script</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SCRIPT">scrDialogBox</argument>
+        <argument kind="EXPRESSION">"Yes, yes I must. One last question, how do I restore the sun exactly?"  </argument>
+        <argument kind="EXPRESSION">true</argument>
+        <argument kind="EXPRESSION">ciri</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">"Ciribot: "</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="84">
+    <action id="601" library="1">
+      <!--action name: Execute_Script-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_execute_script</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SCRIPT">scrDialogBox</argument>
+        <argument kind="EXPRESSION">"I've heard of a mystical object called the Light Bright Cube, it can be found in the east part of this continent in an ice cave.."</argument>
+        <argument kind="EXPRESSION">true</argument>
+        <argument kind="EXPRESSION">crun</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">"Dr. Crunch: "</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="91">
+    <action id="601" library="1">
+      <!--action name: Execute_Script-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_execute_script</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SCRIPT">scrDialogBox</argument>
+        <argument kind="EXPRESSION">"Okay, talking is boring I'm going to leave now. I'll find the cave eventually."  </argument>
+        <argument kind="EXPRESSION">true</argument>
+        <argument kind="EXPRESSION">ciri</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">"Ciribot: "</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="158">
+    <action id="103" library="1">
+      <!--action name: Set_Hspeed-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_hspeed</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>object503</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">6</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>object503</appliesTo>
+      <arguments>
+        <argument kind="STRING">sprite_index=sprPlayer_Walkright
+image_speed=1</argument>
+      </arguments>
+    </action>
+    <action id="201" library="1">
+      <!--action name: Create_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">64</argument>
+        <argument kind="EXPRESSION">384</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="167">
+    <action id="201" library="1">
+      <!--action name: Create_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">120</argument>
+        <argument kind="EXPRESSION">384</argument>
+      </arguments>
+    </action>
+    <action id="113" library="1">
+      <!--action name: Reverse_Xdir-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_reverse_xdir</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>object503</appliesTo>
+      <arguments>
+        <argument kind="STRING">sprite_index=sprPlayer_Walkleft
+</argument>
+      </arguments>
+    </action>
+  </moment>
+</timeline>

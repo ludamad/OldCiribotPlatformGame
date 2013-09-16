@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<timeline>
+  <moment stepNo="0">
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">
+sound_loop(stro)
+</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="6">
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">vspeed=-9
+script_execute(scrDialogBox,"Why is it so bright today?",true,ciri,0,"Ciribot: ")
+</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="22">
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>object476</appliesTo>
+      <arguments>
+        <argument kind="STRING">sprite_index=sprPlayer_Walkleft
+
+</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="24">
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>object476</appliesTo>
+      <arguments>
+        <argument kind="STRING">sprite_index=sprPlayer_Walkright
+</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="28">
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>object476</appliesTo>
+      <arguments>
+        <argument kind="STRING">sprite_index=sprPlayer_Standright
+</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="36">
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">script_execute(scrDialogBox,"What could be causing all this light?",true,ciri,0,"Ciribot: ")
+</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="41">
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>object476</appliesTo>
+      <arguments>
+        <argument kind="STRING">sprite_index=sprPlayer_Walkright
+script_execute(scrDialogBox,"I know, it is that big yellow ball!",true,ciri,0,"Ciribot: ")
+</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="45">
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>object476</appliesTo>
+      <arguments>
+        <argument kind="STRING">image_speed=1
+hspeed=6
+script_execute(scrDialogBox,"I think it was called the sun... it must die!",true,ciri,0,"Ciribot: ")
+</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="46">
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>object476</appliesTo>
+      <arguments>
+        <argument kind="STRING">vspeed=-9
+</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="47">
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>object476</appliesTo>
+      <arguments>
+        <argument kind="STRING">if !place_free(x,y+1) vspeed=-9
+</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="48">
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>object476</appliesTo>
+      <arguments>
+        <argument kind="STRING">if !place_free(x,y+1) vspeed=-9
+</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="49">
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>object476</appliesTo>
+      <arguments>
+        <argument kind="STRING">if !place_free(x,y+1) vspeed=-9
+</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="50">
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>object476</appliesTo>
+      <arguments>
+        <argument kind="STRING">if !place_free(x,y+1) vspeed=-9
+</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="51">
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>object476</appliesTo>
+      <arguments>
+        <argument kind="STRING">script_execute(scrDialogBox,"I need to chase after it!",true,ciri,0,"Ciribot: ")
+</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>object476</appliesTo>
+      <arguments>
+        <argument kind="STRING">if !place_free(x,y+1) vspeed=-9
+</argument>
+      </arguments>
+    </action>
+  </moment>
+  <moment stepNo="52">
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>object476</appliesTo>
+      <arguments>
+        <argument kind="STRING">if !place_free(x,y+1) vspeed=-9
+</argument>
+      </arguments>
+    </action>
+  </moment>
+</timeline>

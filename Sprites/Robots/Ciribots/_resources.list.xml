@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sprPlayer_Walkright" type="RESOURCE"/>
+  <resource name="sprPlayer_Walkleft" type="RESOURCE"/>
+  <resource name="sprPlayer_Standright" type="RESOURCE"/>
+  <resource name="sprite708" type="RESOURCE"/>
+  <resource name="Sleep" type="RESOURCE"/>
+  <resource name="sprPlayer_Ladder" type="RESOURCE"/>
+  <resource name="sprPlayer_Standleft" type="RESOURCE"/>
+  <resource name="sprPlayer_Jumpright" type="RESOURCE"/>
+  <resource name="sprPlayer_Jumpleft" type="RESOURCE"/>
+  <resource name="sprPlayer_Swimright" type="RESOURCE"/>
+  <resource name="sprPlayer_Swimleft" type="RESOURCE"/>
+  <resource name="sprPlayer_Kneelright" type="RESOURCE"/>
+  <resource name="sprPlayer_Kneelleft" type="RESOURCE"/>
+</resources>

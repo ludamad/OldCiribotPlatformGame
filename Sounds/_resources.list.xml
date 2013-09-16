@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="guy" type="GROUP"/>
+  <resource name="snd_typing" type="RESOURCE"/>
+  <resource name="upbeat" type="RESOURCE"/>
+  <resource name="sound89" type="RESOURCE"/>
+  <resource name="sound91" type="RESOURCE"/>
+  <resource name="newlevels" type="RESOURCE"/>
+</resources>

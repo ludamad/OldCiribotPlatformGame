@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="right_shot" type="RESOURCE"/>
+  <resource name="down_shot" type="RESOURCE"/>
+  <resource name="left_shot" type="RESOURCE"/>
+  <resource name="up_shot" type="RESOURCE"/>
+  <resource name="crate" type="RESOURCE"/>
+  <resource name="sprburning" type="RESOURCE"/>
+  <resource name="mask" type="RESOURCE"/>
+  <resource name="ashes" type="RESOURCE"/>
+  <resource name="start fal" type="RESOURCE"/>
+  <resource name="faling" type="RESOURCE"/>
+  <resource name="end fal" type="RESOURCE"/>
+  <resource name="burner" type="RESOURCE"/>
+  <resource name="burning" type="RESOURCE"/>
+  <resource name="masker" type="RESOURCE"/>
+</resources>

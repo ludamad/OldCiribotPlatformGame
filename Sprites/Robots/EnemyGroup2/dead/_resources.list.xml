@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="deaddarkbot" type="RESOURCE"/>
+  <resource name="deadspook" type="RESOURCE"/>
+  <resource name="deadgromo" type="RESOURCE"/>
+  <resource name="deaddevguy" type="RESOURCE"/>
+  <resource name="deadcloak" type="RESOURCE"/>
+  <resource name="deaddiaboo" type="RESOURCE"/>
+</resources>

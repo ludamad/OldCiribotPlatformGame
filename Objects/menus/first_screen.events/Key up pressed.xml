@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="KEYPRESS" id="38">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if instance_nearest(x,y,menuitem).n=-1
+{
+if global.pickings = 2
+{x=instance_nearest(x,y+room_height,exitbb).x
+y=instance_nearest(x,y+room_height,exitbb).y}
+else
+{x=instance_nearest(x,y+room_height,menuitem).x
+y=instance_nearest(x,y+room_height,menuitem).y}
+}
+else
+{x=instance_nearest(x,y-32,menuitem).x
+y=instance_nearest(x,y-32,menuitem).y}</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Select" type="RESOURCE"/>
+  <resource name="first" type="RESOURCE"/>
+  <resource name="secrets" type="RESOURCE"/>
+  <resource name="second" type="RESOURCE"/>
+  <resource name="third" type="RESOURCE"/>
+  <resource name="bosses1" type="RESOURCE"/>
+  <resource name="sun_cutscene" type="RESOURCE"/>
+  <resource name="cutscene2" type="RESOURCE"/>
+</resources>

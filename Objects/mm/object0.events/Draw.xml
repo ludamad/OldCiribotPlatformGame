@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>objPlayer</appliesTo>
+      <arguments>
+        <argument kind="STRING">yh=0
+repeat (60)
+{
+xh=0
+repeat (80)
+{
+if distance_to_point(view_left[0]+xh*8,view_top[0]+yh*8) &gt; 159
+{
+draw_sprite(sprite4,0,view_left[0]+xh*8,view_top[0]+yh*8)
+}
+else
+{
+if distance_to_point(view_left[0]+xh*8,view_top[0]+yh*8) &gt; 127
+{
+draw_sprite(sprite1,0,view_left[0]+xh*8,view_top[0]+yh*8)
+}
+else
+{
+if distance_to_point(view_left[0]+xh*8,view_top[0]+yh*8) &gt; 95
+{
+draw_sprite(sprite2,0,view_left[0]+xh*8,view_top[0]+yh*8)
+}
+else
+if distance_to_point(view_left[0]+xh*8,view_top[0]+yh*8) &gt; 63
+{
+draw_sprite(sprite3,0,view_left[0]+xh*8,view_top[0]+yh*8)
+}
+}
+}
+xh+=1
+}
+yh+=1
+}
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

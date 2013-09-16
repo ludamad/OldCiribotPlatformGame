@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<object id="498">
+  <sprite>black_shooter_left</sprite>
+  <solid>true</solid>
+  <visible>true</visible>
+  <depth>-3</depth>
+  <persistent>false</persistent>
+  <parent>object292</parent>
+  <mask/>
+</object>

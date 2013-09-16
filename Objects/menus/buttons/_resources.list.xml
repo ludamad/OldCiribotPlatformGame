@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="tutorial" type="RESOURCE"/>
+  <resource name="object334" type="RESOURCE"/>
+  <resource name="object322" type="RESOURCE"/>
+  <resource name="object370" type="RESOURCE"/>
+  <resource name="next" type="RESOURCE"/>
+  <resource name="object347" type="RESOURCE"/>
+  <resource name="object345" type="RESOURCE"/>
+  <resource name="slott2" type="RESOURCE"/>
+  <resource name="slott1" type="RESOURCE"/>
+  <resource name="loading" type="RESOURCE"/>
+  <resource name="store" type="RESOURCE"/>
+  <resource name="return" type="RESOURCE"/>
+  <resource name="controlling" type="RESOURCE"/>
+  <resource name="exitbb" type="RESOURCE"/>
+  <resource name="object359" type="RESOURCE"/>
+  <resource name="object358" type="RESOURCE"/>
+  <resource name="object357" type="RESOURCE"/>
+  <resource name="newf" type="RESOURCE"/>
+  <resource name="thirlevel" type="RESOURCE"/>
+  <resource name="seclevel" type="RESOURCE"/>
+  <resource name="firstlevel" type="RESOURCE"/>
+</resources>

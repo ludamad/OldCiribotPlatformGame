@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="doors" type="GROUP"/>
+  <resource name="object463" type="RESOURCE"/>
+  <resource name="shot" type="RESOURCE"/>
+  <resource name="shooter" type="RESOURCE"/>
+  <resource name="metal up" type="RESOURCE"/>
+  <resource name="object508" type="RESOURCE"/>
+</resources>

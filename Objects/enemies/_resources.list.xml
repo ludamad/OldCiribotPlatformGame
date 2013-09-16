@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="enemy" type="RESOURCE"/>
+  <resource name="object283" type="RESOURCE"/>
+  <resource name="object293" type="RESOURCE"/>
+  <resource name="object295" type="RESOURCE"/>
+  <resource name="object288" type="RESOURCE"/>
+  <resource name="object381" type="RESOURCE"/>
+  <resource name="object363" type="RESOURCE"/>
+  <resource name="object290" type="RESOURCE"/>
+  <resource name="deadt" type="RESOURCE"/>
+  <resource name="object273" type="RESOURCE"/>
+  <resource name="object271" type="RESOURCE"/>
+  <resource name="darkworldenemies" type="GROUP"/>
+  <resource name="object272" type="RESOURCE"/>
+  <resource name="object269" type="RESOURCE"/>
+  <resource name="object280" type="RESOURCE"/>
+  <resource name="object292" type="RESOURCE"/>
+  <resource name="object498" type="RESOURCE"/>
+  <resource name="object287" type="RESOURCE"/>
+  <resource name="object501" type="RESOURCE"/>
+  <resource name="object279" type="RESOURCE"/>
+  <resource name="bombshotleft" type="RESOURCE"/>
+  <resource name="bombshotright" type="RESOURCE"/>
+  <resource name="left" type="RESOURCE"/>
+  <resource name="right" type="RESOURCE"/>
+</resources>

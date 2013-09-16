@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Explosions" type="GROUP"/>
+  <resource name="Powerups" type="GROUP"/>
+  <resource name="Doors" type="GROUP"/>
+  <resource name="Scenery" type="GROUP"/>
+  <resource name="DialogueSprites" type="GROUP"/>
+  <resource name="Bullets" type="GROUP"/>
+  <resource name="Robots" type="GROUP"/>
+  <resource name="Blocks" type="GROUP"/>
+  <resource name="Items" type="GROUP"/>
+  <resource name="Water" type="GROUP"/>
+  <resource name="Mirrors, black holes, John stuff" type="GROUP"/>
+  <resource name="Do not touch" type="GROUP"/>
+  <resource name="Menuthings" type="GROUP"/>
+  <resource name="AreaLogos" type="GROUP"/>
+  <resource name="Other" type="GROUP"/>
+  <resource name="Bosses" type="GROUP"/>
+  <resource name="cutscene" type="GROUP"/>
+  <resource name="sprite720" type="RESOURCE"/>
+  <resource name="sprite721" type="RESOURCE"/>
+  <resource name="new stuff to be classiffied later" type="GROUP"/>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Items" type="GROUP"/>
+  <resource name="arrows" type="RESOURCE"/>
+  <resource name="appear" type="RESOURCE"/>
+  <resource name="fading" type="RESOURCE"/>
+  <resource name="faded" type="RESOURCE"/>
+  <resource name="NormalBlocks" type="GROUP"/>
+  <resource name="Makeable blocks" type="GROUP"/>
+  <resource filename="Glass_Ice" name="Glass/Ice" type="GROUP"/>
+  <resource name="MovingStuff" type="GROUP"/>
+  <resource name="Ground" type="GROUP"/>
+  <resource name="GOthrough" type="GROUP"/>
+</resources>

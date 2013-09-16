@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="paint dot" type="RESOURCE"/>
+  <resource name="paint can still" type="RESOURCE"/>
+  <resource name="fall to left" type="RESOURCE"/>
+  <resource name="fall to right" type="RESOURCE"/>
+  <resource name="buy paint" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="dark cirbot" type="RESOURCE"/>
+  <resource name="spook" type="RESOURCE"/>
+  <resource name="gromo" type="RESOURCE"/>
+  <resource name="cloak" type="RESOURCE"/>
+  <resource name="devguy" type="RESOURCE"/>
+  <resource name="diaboo" type="RESOURCE"/>
+</resources>

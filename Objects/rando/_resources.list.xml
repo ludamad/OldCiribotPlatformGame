@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="object285" type="RESOURCE"/>
+  <resource name="object409" type="RESOURCE"/>
+  <resource name="settings" type="RESOURCE"/>
+  <resource name="object286" type="RESOURCE"/>
+  <resource name="worldset0" type="RESOURCE"/>
+  <resource name="worldset1" type="RESOURCE"/>
+  <resource name="worldset2" type="RESOURCE"/>
+  <resource name="worldset3" type="RESOURCE"/>
+  <resource name="object308" type="RESOURCE"/>
+  <resource name="thing" type="RESOURCE"/>
+  <resource name="object382" type="RESOURCE"/>
+  <resource name="object405" type="RESOURCE"/>
+  <resource name="object309" type="RESOURCE"/>
+  <resource name="object305" type="RESOURCE"/>
+  <resource name="object387" type="RESOURCE"/>
+  <resource name="object310" type="RESOURCE"/>
+  <resource name="object324" type="RESOURCE"/>
+  <resource name="object377" type="RESOURCE"/>
+  <resource name="object325" type="RESOURCE"/>
+  <resource name="object505" type="RESOURCE"/>
+  <resource name="tutcontrol1" type="RESOURCE"/>
+  <resource name="closeds" type="RESOURCE"/>
+  <resource name="tutcontrol2" type="RESOURCE"/>
+  <resource name="opens" type="RESOURCE"/>
+  <resource name="object323" type="RESOURCE"/>
+  <resource name="group" type="GROUP"/>
+  <resource name="object383" type="RESOURCE"/>
+  <resource name="object304" type="RESOURCE"/>
+  <resource name="object428" type="RESOURCE"/>
+  <resource name="F &amp; B" type="RESOURCE"/>
+  <resource name="object360" type="RESOURCE"/>
+  <resource name="object373" type="RESOURCE"/>
+  <resource name="object262" type="RESOURCE"/>
+  <resource name="object270" type="RESOURCE"/>
+</resources>

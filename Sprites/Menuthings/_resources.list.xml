@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="menu_template" type="RESOURCE"/>
+  <resource name="AreaMenus" type="GROUP"/>
+  <resource name="Slots" type="GROUP"/>
+  <resource name="Customstuff" type="GROUP"/>
+  <resource name="MainMenu" type="GROUP"/>
+  <resource name="goalg" type="RESOURCE"/>
+  <resource name="Difficulties" type="GROUP"/>
+  <resource name="sprite460" type="RESOURCE"/>
+  <resource name="sprite476" type="RESOURCE"/>
+  <resource name="controls" type="RESOURCE"/>
+</resources>

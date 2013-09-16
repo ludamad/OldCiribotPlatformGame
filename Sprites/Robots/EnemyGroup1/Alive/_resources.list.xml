@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="enemy_threye" type="RESOURCE"/>
+  <resource name="enemy_franky" type="RESOURCE"/>
+  <resource name="enemy_raki" type="RESOURCE"/>
+  <resource name="enemy_cirishade" type="RESOURCE"/>
+  <resource name="enemy_cubygonewrong" type="RESOURCE"/>
+  <resource name="enemy_greenguy" type="RESOURCE"/>
+</resources>

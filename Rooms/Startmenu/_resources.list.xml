@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Start" type="RESOURCE"/>
+  <resource name="CControl" type="RESOURCE"/>
+  <resource name="Loadd" type="RESOURCE"/>
+  <resource name="Slot" type="RESOURCE"/>
+</resources>

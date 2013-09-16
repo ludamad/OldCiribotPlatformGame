@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="KEYBOARD" id="39">
+  <actions>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">global.metalic</argument>
+        <argument kind="EXPRESSION">1</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if not position_meeting(x,y,objLadder) ladder=false;
+facing='right';
+if kneel=true sprite_index=metrightkneel;
+if not place_free(x,y+1) and water=false sprite_index=metright;
+if place_free(x,y+1) and water=false and ladder=false sprite_index=metright; 
+if ladder=true and place_free(x,y+1)and climb sprite_index=metladder;
+if water=true sprite_index=sprPlayer_Swimright;
+if kneel=false {
+for (i=0; i&lt;= 8; i +=1) {
+ if place_free(x+6,y-i) { x += 6; y -= i; exit; }}
+for (i=0; i&lt;= 8; i +=1) {
+ if place_free(x+6,y-i) { x += 6; y += i; exit; }}
+}
+
+</argument>
+      </arguments>
+    </action>
+    <action id="421" library="1">
+      <!--action name: Else-->
+      <kind>ELSE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if not position_meeting(x,y,objLadder) ladder=false;
+facing='right';
+if kneel=true sprite_index=sprPlayer_Kneelright;
+if not place_free(x,y+1) and water=false sprite_index=sprPlayer_Walkright;
+if place_free(x,y+1) and water=false and ladder=false sprite_index=sprPlayer_Jumpright; 
+if ladder=true and place_free(x,y+1)and climb sprite_index=sprPlayer_Ladder;
+if water=true sprite_index=sprPlayer_Swimright;
+if kneel=false {
+for (i=0; i&lt;= 8; i +=1) {
+ if place_free(x+6,y-i) { x += 6; y -= i; exit; }}
+for (i=0; i&lt;= 8; i +=1) {
+ if place_free(x+6,y-i) { x += 6; y += i; exit; }}
+}
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

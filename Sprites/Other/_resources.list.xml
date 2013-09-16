@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="spr_bird" type="RESOURCE"/>
+  <resource name="sprite595" type="RESOURCE"/>
+  <resource name="sprite594" type="RESOURCE"/>
+  <resource name="sprite559" type="RESOURCE"/>
+  <resource name="sprite548" type="RESOURCE"/>
+  <resource name="sprite557" type="RESOURCE"/>
+  <resource name="dark shot" type="RESOURCE"/>
+  <resource name="sprite690" type="RESOURCE"/>
+</resources>

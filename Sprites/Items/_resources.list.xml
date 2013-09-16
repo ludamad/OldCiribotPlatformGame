@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sprBlocker" type="RESOURCE"/>
+  <resource name="sprite447" type="RESOURCE"/>
+  <resource name="sprPlatform" type="RESOURCE"/>
+  <resource name="sprJumppad" type="RESOURCE"/>
+  <resource name="sprJumppadtop" type="RESOURCE"/>
+</resources>

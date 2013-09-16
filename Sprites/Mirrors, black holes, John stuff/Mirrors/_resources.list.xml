@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sprite609" type="RESOURCE"/>
+  <resource name="sprite610" type="RESOURCE"/>
+  <resource name="mirror" type="RESOURCE"/>
+  <resource name="sprite615" type="RESOURCE"/>
+  <resource name="sprite616" type="RESOURCE"/>
+  <resource name="sprite617" type="RESOURCE"/>
+  <resource name="sprite611" type="RESOURCE"/>
+  <resource name="sprite608" type="RESOURCE"/>
+  <resource name="mirror turners" type="GROUP"/>
+</resources>

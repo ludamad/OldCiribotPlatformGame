@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">global.metalic</argument>
+        <argument kind="EXPRESSION">1</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if !keyboard_check(vk_right) &amp;&amp; !keyboard_check(vk_left) and !(sprite_index=metal_sleep)
+{
+    water=false
+    {
+        if facing='left' 
+            sprite_index=metal_straight; 
+        else
+            sprite_index=metal_straight;
+    }
+    if water=true and facing='left' 
+        sprite_index=sprPlayer_Swimleft;
+    if water=true and facing='right' 
+        sprite_index=sprPlayer_Swimright;
+       if climb=true
+        {
+            sprite_index=metladder; 
+            if (keyboard_check(vk_up) or keyboard_check(vk_down))
+               {image_speed=1}
+       }
+}
+</argument>
+      </arguments>
+    </action>
+    <action id="421" library="1">
+      <!--action name: Else-->
+      <kind>ELSE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if !keyboard_check(vk_right) &amp;&amp; !keyboard_check(vk_left) and !(sprite_index=Sleep)
+{
+    water=false
+    {
+        if facing='left' 
+            sprite_index=sprPlayer_Standleft; 
+        else
+            sprite_index=sprPlayer_Standright;
+    }
+    if water=true and facing='left' 
+        sprite_index=sprPlayer_Swimleft;
+    if water=true and facing='right' 
+        sprite_index=sprPlayer_Swimright;
+       if climb=true
+        {
+            sprite_index=sprPlayer_Ladder; 
+            if (keyboard_check(vk_up) or keyboard_check(vk_down))
+               {image_speed=1}
+       }
+}
+
+</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if (key_press_jump(0,global.cjump))
+script_execute(jumping)
+if (script38())
+script_execute(unjump)
+if (key_press_jump(1,global.cblock))
+script_execute(blockmake)
+if (keyboard_check(global.cshoot))
+script_execute(shootey)
+if not place_free(x,y) y-=1
+if water=true image_speed=.2;
+if water=false and ladder=false image_speed=.5;
+if climb image_speed=1
+
+gravity_direction = 270;
+if place_free(x,y+1)and not climb {gravity=1 alarm[1]=150};
+if not place_free(x,y+1) gravity=0;
+if vspeed&gt;12 vspeed=12;
+if ladder and climb {gravity = 0; vspeed = 0; }
+if not position_meeting(x,y+1,objFloor) hspeed=0;
+if not position_meeting(x,y,objWater) water=false;
+if !position_meeting(x+32,y,objLadder) and !position_meeting(x,y,objLadder) ladder=false;
+if not ladder {climb=0}
+if not vspeed = 0 hspeed=0 
+if !(place_meeting(x,y+1,objHorizontalPlatform)) || (vspeed &lt; 0)  {hspeed = 0;}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

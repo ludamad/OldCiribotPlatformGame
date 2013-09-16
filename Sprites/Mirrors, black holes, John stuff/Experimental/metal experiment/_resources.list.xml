@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="metal up" type="RESOURCE"/>
+  <resource name="slow spin" type="RESOURCE"/>
+  <resource name="electro spin" type="RESOURCE"/>
+  <resource name="electro shot" type="RESOURCE"/>
+  <resource name="metal_sleep" type="RESOURCE"/>
+  <resource name="metladder" type="RESOURCE"/>
+  <resource name="metal_straight" type="RESOURCE"/>
+  <resource name="metleft" type="RESOURCE"/>
+  <resource name="metright" type="RESOURCE"/>
+  <resource name="metleftkneel" type="RESOURCE"/>
+  <resource name="metrightkneel" type="RESOURCE"/>
+  <resource name="dematalizer_anim" type="RESOURCE"/>
+  <resource name="dematalizer" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="area_menu_back" type="RESOURCE"/>
+  <resource name="nextg" type="RESOURCE"/>
+  <resource name="bossg" type="RESOURCE"/>
+  <resource name="levels" type="GROUP"/>
+</resources>

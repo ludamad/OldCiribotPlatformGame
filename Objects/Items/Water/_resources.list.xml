@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="objWater" type="RESOURCE"/>
+  <resource name="objFakeWater" type="RESOURCE"/>
+  <resource name="objGetoutofwater" type="RESOURCE"/>
+</resources>

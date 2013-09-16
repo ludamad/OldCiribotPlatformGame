@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Mirrors" type="GROUP"/>
+  <resource name="blackhole" type="RESOURCE"/>
+  <resource name="coin" type="RESOURCE"/>
+  <resource name="star thing" type="RESOURCE"/>
+  <resource name="Experimental" type="GROUP"/>
+</resources>

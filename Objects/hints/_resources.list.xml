@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="downtechnique" type="RESOURCE"/>
+  <resource name="shootthru" type="RESOURCE"/>
+  <resource name="breakit" type="RESOURCE"/>
+  <resource name="saves" type="RESOURCE"/>
+  <resource name="multisaves" type="RESOURCE"/>
+  <resource name="doorss" type="RESOURCE"/>
+  <resource name="time_secret" type="RESOURCE"/>
+  <resource name="mystery" type="RESOURCE"/>
+  <resource name="metal" type="RESOURCE"/>
+  <resource name="save" type="RESOURCE"/>
+  <resource name="doororor" type="RESOURCE"/>
+  <resource name="saves5" type="RESOURCE"/>
+  <resource name="saves20" type="RESOURCE"/>
+  <resource name="object442" type="RESOURCE"/>
+</resources>
